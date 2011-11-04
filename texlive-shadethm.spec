@@ -53,6 +53,7 @@ statement in a shaded box. It supports all the options of
 %doc %{_texmfdistdir}/doc/latex/shadethm/shadetest.tex
 %doc %{_texmfdistdir}/doc/latex/shadethm/shadethm-doc.pdf
 %doc %{_texmfdistdir}/doc/latex/shadethm/shadethm-doc.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -63,3 +64,5 @@ statement in a shaded box. It supports all the options of
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
