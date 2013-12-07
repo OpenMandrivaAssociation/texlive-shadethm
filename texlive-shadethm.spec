@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-shadethm
 Version:	20101104
-Release:	2
+Release:	3
 Summary:	Theorem environments that are shaded
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/shadethm
