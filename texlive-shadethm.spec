@@ -1,6 +1,6 @@
 Name:		texlive-shadethm
 Version:	53350
-Release:	1
+Release:	2
 Summary:	Theorem environments that are shaded
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/shadethm
