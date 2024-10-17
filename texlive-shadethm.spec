@@ -3,7 +3,7 @@ Version:	53350
 Release:	2
 Summary:	Theorem environments that are shaded
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/shadethm
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/shadethm
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/shadethm.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/shadethm.doc.r%{version}.tar.xz
